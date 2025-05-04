@@ -1,0 +1,29 @@
+
+body {
+  font-family: Arial;
+  background-color: #f8f9fa;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input[type=text], input[type=password], input[type=number], input[type=date], input[type=file] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+}
+input[type=submit] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+}
+h3, h4 {
+  text-align: center;
+}

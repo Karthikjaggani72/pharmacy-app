@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Pharmacy App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <form method="post">
+        <h3>Pharmacy Login</h3>
+        <label>User ID:</label><br>
+        <input type="text" name="username"><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
