@@ -1,5 +1,7 @@
-Flask
-oracledb
+flask
 gunicorn
-pandas
 jinja2
+pandas
+oracledb
+openpyxl
+python-dotenv
