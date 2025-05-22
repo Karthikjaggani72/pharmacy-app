@@ -11,9 +11,7 @@ def get_db():
     return oracledb.connect(
         user="system",  # <- lowercase is OK
         password="K@j@p0987",
-        dsn="localhost/XEPDB1",  # Must match what you used in SQL Developer
-        mode=oracledb.DEFAULT_MODE,
-        config_dir=None,
+        dsn="localhost/XEPDB1"
     )
 
 # ---------- NEW  START :  daily Day_Bill_ID helpers ----------
