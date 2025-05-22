@@ -11,7 +11,7 @@ def get_db():
     return oracledb.connect(
         user="system",  # <- lowercase is OK
         password="K@j@p0987",
-        dsn="localhost/XEPDB1"  # Must match what you used in SQL Developer
+        dsn="localhost/XEPDB1",  # Must match what you used in SQL Developer
         thin=True
     )
 
