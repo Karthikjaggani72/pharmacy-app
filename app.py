@@ -6,12 +6,13 @@ import oracledb
 import datetime
 
 # ---------- Oracle connection ----------
-oracledb.init_oracle_client(lib_dir=r"C:\oracle\instantclient\instantclient_23_8")   # change if needed
+#oracledb.init_oracle_client(lib_dir=r"C:\oracle\instantclient\instantclient_23_8")   # change if needed
 def get_db():
     return oracledb.connect(
         user="system",  # <- lowercase is OK
         password="K@j@p0987",
         dsn="localhost/XEPDB1"  # Must match what you used in SQL Developer
+        thin=True
     )
 
 # ---------- NEW  START :  daily Day_Bill_ID helpers ----------
